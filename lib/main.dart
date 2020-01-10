@@ -15,15 +15,7 @@ class Home extends StatelessWidget {
         backgroundColor: Colors.blueGrey[600],
       ),
       body: Center(
-        child: Text(
-          'Body Text',
-          style: TextStyle(
-            fontSize: 25.0,
-            fontWeight: FontWeight.bold,
-            letterSpacing: 2.0,
-            fontFamily: 'TitilliumWeb',
-          ),
-        ),
+        child: Image.asset('assets/wallpaper.jpg'),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {},
